@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket  = "tf-remote-state-vpn"
+    bucket  = var.S3_BUCKET
     key     = "state/terraform.tfstate"
     region  = "us-east-1"
     encrypt = true

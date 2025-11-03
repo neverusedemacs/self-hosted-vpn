@@ -26,3 +26,6 @@ variable "VPN_ZONE" {
   type = string
 }
 
+variable "S3_BUCKET" {
+  type = string
+}
